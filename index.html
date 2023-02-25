@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kotta+One&display=swap" rel="stylesheet">
+        <title> Musica Do DJ Legal </title>
+        <script src="//unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>
+        
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="Container">
+            <div class="header">
+                <h1> Musica Do DJ Legal </h1>
+                <p class="Obs"> OBSERVAÇÃO: Mova seu pulso esquerdo para cima e para baixo para controlar o volume. Mova seu pulso direito para controlar a velocidade.</p>
+                <button onclick="play()"> Play </button>
+            </div>
+            <div class="velocidadeDiv">
+                <img src="disk.gif">
+                <h3 class="rotulo"> Velocidade: <span id="velocidadeValor"></span></h3>
+            </div>
+            <div class="volumeDiv">
+                <img src="disk.gif">
+                <h3 class="rotulo"> Volume: <span id="volumeValor"></span></h3>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
+
+
+<!-- <audio>
+                    <source src="music.mp3" type="audio/mPEG">
+</audio> -->
